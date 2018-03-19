@@ -1,0 +1,15 @@
+group 'data-duplication'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '6.9.10'
+    compile group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
+}
